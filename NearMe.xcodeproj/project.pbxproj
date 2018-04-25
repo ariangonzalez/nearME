@@ -7,21 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C8ECB3142D50A3D2F9CE226 /* Pods_NearMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4D28D7B4D4E98FA0B5CAF6 /* Pods_NearMe.framework */; };
 		D242259B205C7E50003CEC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242259A205C7E50003CEC51 /* AppDelegate.swift */; };
-		D242259D205C7E50003CEC51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242259C205C7E50003CEC51 /* ViewController.swift */; };
 		D24225A0205C7E50003CEC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242259E205C7E50003CEC51 /* Main.storyboard */; };
 		D24225A2205C7E50003CEC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24225A1205C7E50003CEC51 /* Assets.xcassets */; };
 		D24225A5205C7E50003CEC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24225A3205C7E50003CEC51 /* LaunchScreen.storyboard */; };
+		D24225AE205C7F20003CEC51 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24225AD205C7F20003CEC51 /* CoreLocation.framework */; };
+		D24225C4205C99F1003CEC51 /* YelpAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24225C3205C99F1003CEC51 /* YelpAPIManager.swift */; };
+		D257A57220687B6D00C65047 /* TodayViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257A57120687B6C00C65047 /* TodayViewTableViewCell.swift */; };
+		D263B688205CE0AB009ECD07 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D263B687205CE0AB009ECD07 /* MapKit.framework */; };
+		D263B68E20604D05009ECD07 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263B68D20604D05009ECD07 /* BusinessCell.swift */; };
+		D28D4E3C2060C6FE00D635D4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28D4E3B2060C6FE00D635D4 /* TableViewController.swift */; };
+		D2DC4929206086B900EAA2E5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DC4928206086B900EAA2E5 /* NotificationCenter.framework */; };
+		D2DC492C206086B900EAA2E5 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC492B206086B900EAA2E5 /* TodayViewController.swift */; };
+		D2DC492F206086B900EAA2E5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DC492D206086B900EAA2E5 /* MainInterface.storyboard */; };
+		D2DC4933206086B900EAA2E5 /* Places NearMe.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2DC4927206086B800EAA2E5 /* Places NearMe.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D2DC4931206086B900EAA2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242258F205C7E50003CEC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DC4926206086B800EAA2E5;
+			remoteInfo = "Places NearMe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D24225B6205C9293003CEC51 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DC4937206086BA00EAA2E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2DC4933206086B900EAA2E5 /* Places NearMe.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		33F14A02060B8BCA62DFE840 /* Pods-NearMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearMe/Pods-NearMe.debug.xcconfig"; sourceTree = "<group>"; };
+		6B4D28D7B4D4E98FA0B5CAF6 /* Pods_NearMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2422597205C7E50003CEC51 /* NearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D242259A205C7E50003CEC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D242259C205C7E50003CEC51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D242259F205C7E50003CEC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D24225A1205C7E50003CEC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24225A4205C7E50003CEC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24225A6205C7E50003CEC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24225AD205C7F20003CEC51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D24225B0205C920D003CEC51 /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24225C3205C99F1003CEC51 /* YelpAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YelpAPIManager.swift; path = ../../iSuggest/iSuggest/YelpAPIManager.swift; sourceTree = "<group>"; };
+		D257A5702063118B00C65047 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D257A57120687B6C00C65047 /* TodayViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewTableViewCell.swift; sourceTree = "<group>"; };
+		D263B687205CE0AB009ECD07 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D263B68D20604D05009ECD07 /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		D28D4E3B2060C6FE00D635D4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D2AC4C2920621B6E00DAE689 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AC4C2C20621D6400DAE689 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AC4C2D2062FFC500DAE689 /* Places NearMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Places NearMe.entitlements"; sourceTree = "<group>"; };
+		D2AC4C2E2062FFE600DAE689 /* NearMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NearMe.entitlements; sourceTree = "<group>"; };
+		D2DC4927206086B800EAA2E5 /* Places NearMe.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Places NearMe.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DC4928206086B900EAA2E5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D2DC492B206086B900EAA2E5 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D2DC492E206086B900EAA2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D2DC4930206086B900EAA2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1DF2AA6E7F03177F63066D /* Pods-NearMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearMe/Pods-NearMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +92,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24225AE205C7F20003CEC51 /* CoreLocation.framework in Frameworks */,
+				D263B688205CE0AB009ECD07 /* MapKit.framework in Frameworks */,
+				5C8ECB3142D50A3D2F9CE226 /* Pods_NearMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DC4924206086B800EAA2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DC4929206086B900EAA2E5 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DE6F8C0766C1E8F927C664F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F14A02060B8BCA62DFE840 /* Pods-NearMe.debug.xcconfig */,
+				FC1DF2AA6E7F03177F63066D /* Pods-NearMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D242258E205C7E50003CEC51 = {
 			isa = PBXGroup;
 			children = (
 				D2422599205C7E50003CEC51 /* NearMe */,
+				D2DC492A206086B900EAA2E5 /* Places NearMe */,
 				D2422598205C7E50003CEC51 /* Products */,
+				D24225AC205C7F1F003CEC51 /* Frameworks */,
+				0DE6F8C0766C1E8F927C664F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				D2422597205C7E50003CEC51 /* NearMe.app */,
+				D2DC4927206086B800EAA2E5 /* Places NearMe.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +141,44 @@
 		D2422599205C7E50003CEC51 /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
+				D2AC4C2E2062FFE600DAE689 /* NearMe.entitlements */,
 				D242259A205C7E50003CEC51 /* AppDelegate.swift */,
-				D242259C205C7E50003CEC51 /* ViewController.swift */,
+				D24225C3205C99F1003CEC51 /* YelpAPIManager.swift */,
 				D242259E205C7E50003CEC51 /* Main.storyboard */,
 				D24225A1205C7E50003CEC51 /* Assets.xcassets */,
 				D24225A3205C7E50003CEC51 /* LaunchScreen.storyboard */,
 				D24225A6205C7E50003CEC51 /* Info.plist */,
+				D263B68D20604D05009ECD07 /* BusinessCell.swift */,
+				D28D4E3B2060C6FE00D635D4 /* TableViewController.swift */,
 			);
 			path = NearMe;
+			sourceTree = "<group>";
+		};
+		D24225AC205C7F1F003CEC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D257A5702063118B00C65047 /* CDYelpFusionKit.framework */,
+				D2AC4C2C20621D6400DAE689 /* CDYelpFusionKit.framework */,
+				D2AC4C2920621B6E00DAE689 /* CDYelpFusionKit.framework */,
+				D263B687205CE0AB009ECD07 /* MapKit.framework */,
+				D24225B0205C920D003CEC51 /* YelpAPI.framework */,
+				D24225AD205C7F20003CEC51 /* CoreLocation.framework */,
+				6B4D28D7B4D4E98FA0B5CAF6 /* Pods_NearMe.framework */,
+				D2DC4928206086B900EAA2E5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DC492A206086B900EAA2E5 /* Places NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC4C2D2062FFC500DAE689 /* Places NearMe.entitlements */,
+				D2DC492B206086B900EAA2E5 /* TodayViewController.swift */,
+				D2DC492D206086B900EAA2E5 /* MainInterface.storyboard */,
+				D257A57120687B6C00C65047 /* TodayViewTableViewCell.swift */,
+				D2DC4930206086B900EAA2E5 /* Info.plist */,
+			);
+			path = "Places NearMe";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +188,41 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D24225A9205C7E50003CEC51 /* Build configuration list for PBXNativeTarget "NearMe" */;
 			buildPhases = (
+				F964C42B907CF537AA0F5B86 /* [CP] Check Pods Manifest.lock */,
 				D2422593205C7E50003CEC51 /* Sources */,
 				D2422594205C7E50003CEC51 /* Frameworks */,
 				D2422595205C7E50003CEC51 /* Resources */,
+				55B2A3D547F37FBD0E04539D /* [CP] Embed Pods Frameworks */,
+				D95E174731504068EC04378A /* [CP] Copy Pods Resources */,
+				D24225B6205C9293003CEC51 /* Embed Frameworks */,
+				D2DC4937206086BA00EAA2E5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D2DC4932206086B900EAA2E5 /* PBXTargetDependency */,
 			);
 			name = NearMe;
 			productName = NearMe;
 			productReference = D2422597205C7E50003CEC51 /* NearMe.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D2DC4926206086B800EAA2E5 /* Places NearMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DC4936206086BA00EAA2E5 /* Build configuration list for PBXNativeTarget "Places NearMe" */;
+			buildPhases = (
+				D2DC4923206086B800EAA2E5 /* Sources */,
+				D2DC4924206086B800EAA2E5 /* Frameworks */,
+				D2DC4925206086B800EAA2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Places NearMe";
+			productName = "Places NearMe";
+			productReference = D2DC4927206086B800EAA2E5 /* Places NearMe.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +237,23 @@
 					D2422596205C7E50003CEC51 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D2DC4926206086B800EAA2E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -114,6 +271,7 @@
 			projectRoot = "";
 			targets = (
 				D2422596205C7E50003CEC51 /* NearMe */,
+				D2DC4926206086B800EAA2E5 /* Places NearMe */,
 			);
 		};
 /* End PBXProject section */
@@ -129,19 +287,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DC4925206086B800EAA2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DC492F206086B900EAA2E5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55B2A3D547F37FBD0E04539D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NearMe/Pods-NearMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CDYelpFusionKit/CDYelpFusionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDYelpFusionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearMe/Pods-NearMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95E174731504068EC04378A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearMe/Pods-NearMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F964C42B907CF537AA0F5B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2422593205C7E50003CEC51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D242259D205C7E50003CEC51 /* ViewController.swift in Sources */,
+				D263B68E20604D05009ECD07 /* BusinessCell.swift in Sources */,
+				D28D4E3C2060C6FE00D635D4 /* TableViewController.swift in Sources */,
 				D242259B205C7E50003CEC51 /* AppDelegate.swift in Sources */,
+				D24225C4205C99F1003CEC51 /* YelpAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DC4923206086B800EAA2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D257A57220687B6D00C65047 /* TodayViewTableViewCell.swift in Sources */,
+				D2DC492C206086B900EAA2E5 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DC4932206086B900EAA2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DC4926206086B800EAA2E5 /* Places NearMe */;
+			targetProxy = D2DC4931206086B900EAA2E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D242259E205C7E50003CEC51 /* Main.storyboard */ = {
@@ -158,6 +403,14 @@
 				D24225A4205C7E50003CEC51 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D2DC492D206086B900EAA2E5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DC492E206086B900EAA2E5 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,8 +525,11 @@
 		};
 		D24225AA205C7E50003CEC51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F14A02060B8BCA62DFE840 /* Pods-NearMe.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NearMe/NearMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLN92QF6G9;
 				INFOPLIST_FILE = NearMe/Info.plist;
@@ -281,14 +537,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arian.gonzalez.NearMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D24225AB205C7E50003CEC51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1DF2AA6E7F03177F63066D /* Pods-NearMe.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NearMe/NearMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLN92QF6G9;
 				INFOPLIST_FILE = NearMe/Info.plist;
@@ -296,7 +555,41 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arian.gonzalez.NearMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D2DC4934206086B900EAA2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = "Places NearMe/Places NearMe.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLN92QF6G9;
+				INFOPLIST_FILE = "Places NearMe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.gonzalez.NearMe.Places-NearMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2DC4935206086B900EAA2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = "Places NearMe/Places NearMe.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLN92QF6G9;
+				INFOPLIST_FILE = "Places NearMe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.gonzalez.NearMe.Places-NearMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -317,6 +610,15 @@
 			buildConfigurations = (
 				D24225AA205C7E50003CEC51 /* Debug */,
 				D24225AB205C7E50003CEC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DC4936206086BA00EAA2E5 /* Build configuration list for PBXNativeTarget "Places NearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DC4934206086B900EAA2E5 /* Debug */,
+				D2DC4935206086B900EAA2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
